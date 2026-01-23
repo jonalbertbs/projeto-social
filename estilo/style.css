@@ -38,8 +38,7 @@ iframe#tela{
 #rede-social {
     text-align: right;
     margin-right: 10px;
-    opacity: 0;
-    animation: aparecer 2s ease-in-out 1s forwards;  /* ← ADICIONE ESTA LINHA */
+    
 }
    
     
