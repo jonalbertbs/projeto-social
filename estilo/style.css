@@ -27,10 +27,11 @@ body,html {
 }
 iframe#tela{
     position: relative;
-    top: 68px;
-    left: 19px;
-    width: 228px;
+    top: 65px;
+    left: 16px;
+    width: 231px;
     height: 410px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
 }
 #rede-social {
     text-align: right;
