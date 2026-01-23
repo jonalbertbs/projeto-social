@@ -22,8 +22,16 @@
             text-align: center;
             text-decoration: none;
             font-weight: bolder;
+            opacity: 0;  /* ← ADICIONE ESTA LINHA */
+            animation: mostrarLink 0.5s         ease-in-out 1.5s forwards;  /* ←        ADICIONE ESTA LINHA */
             
         }
         a:hover {
             background-color: red;
         }
+
+        @keyframes mostrarLink {
+    to {
+        opacity: 1;
+    }
+}
